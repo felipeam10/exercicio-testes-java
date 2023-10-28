@@ -2,8 +2,8 @@ package entities;
 
 public class Financing {
 
-	private Double totalAmount;
-	private Double income;
+	private Double totalAmount; /* quantia total */
+	private Double income; /* renda */
 	private Integer months;
 	
 	public Financing(Double totalAmount, Double income, Integer months) {
